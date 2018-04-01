@@ -1,0 +1,58 @@
++
++ +
+++
+
+-
+- -
+--
+
+*
+* *
+** *
+***
+
+/
+/ /
+
+%
+%%
+
+(())
+
+=
+==
+= =
+
+< <
+</ < /
+
++*+-**/</=
+
+<!--
+<!-- this is a comment -->
+
+<thisisatagidentifier
+
+< THIS IS NOT
+
+>:,;.''"!~
+
+123
+123.
+123.+
+123e34.
+123e-12
+123.4e+3
+123.e
+123.45ea
+123.45e-a
+123.45e-67
+
+THESE
+ARE
+IDENTIFIERS
+OH
+YEAH
+
+
+<!--unexpected eof --
