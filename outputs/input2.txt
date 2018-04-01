@@ -1,0 +1,28 @@
+MULT       *
+EXP        **
+MULT       *
+MULT       *
+EXP        **
+EXP        **
+EXP        **
+MULT       *
+LTHAN      <
+ENDTAGHEAD </
+LTHAN      <
+DIVIDE     /
+TAGIDENT   <abc
+TAGIDENT   <ab
+TAGIDENT   <a
+IDENT      b
+IDENT      c
+NUMBER     123.24
+***lexical error: badly formed number
+NUMBER     56.
+***lexical error: badly formed number
+NUMBER     12e
+NUMBER     2
+NUMBER     12e20
+***lexical error: badly formed number
+NUMBER     123e
+IDENT      lol
+NUMBER     747E+23

@@ -1,0 +1,82 @@
+PLUS       +
+PLUS       +
+PLUS       +
+PLUS       +
+PLUS       +
+MINUS      -
+MINUS      -
+MINUS      -
+MINUS      -
+MINUS      -
+MULT       *
+MULT       *
+MULT       *
+EXP        **
+MULT       *
+EXP        **
+MULT       *
+DIVIDE     /
+DIVIDE     /
+DIVIDE     /
+MODULO     %
+MODULO     %
+MODULO     %
+LPAREN     (
+LPAREN     (
+RPAREN     )
+RPAREN     )
+EQUALS     =
+EQUALS     =
+EQUALS     =
+EQUALS     =
+EQUALS     =
+LTHAN      <
+LTHAN      <
+ENDTAGHEAD </
+LTHAN      <
+DIVIDE     /
+PLUS       +
+MULT       *
+PLUS       +
+MINUS      -
+EXP        **
+DIVIDE     /
+ENDTAGHEAD </
+EQUALS     =
+TAGIDENT   <thisisatagidentifier
+LTHAN      <
+IDENT      THIS
+IDENT      IS
+IDENT      NOT
+GTHAN      >
+COLON      :
+COMMA      ,
+SCOLON     ;
+PERIOD     .
+QUOTE      '
+QUOTE      '
+DQUOTE     "
+***lexical error: illegal character (!)
+***lexical error: illegal character (~)
+NUMBER     123
+***lexical error: badly formed number
+NUMBER     123.
+***lexical error: badly formed number
+NUMBER     123.+
+NUMBER     123e34
+PERIOD     .
+NUMBER     123e-12
+NUMBER     123.4e+3
+***lexical error: badly formed number
+NUMBER     123.e
+***lexical error: badly formed number
+NUMBER     123.45ea
+***lexical error: badly formed number
+NUMBER     123.45e-a
+NUMBER     123.45e-67
+IDENT      THESE
+IDENT      ARE
+IDENT      IDENTIFIERS
+IDENT      OH
+IDENT      YEAH
+***lexical error: un-expected end of file

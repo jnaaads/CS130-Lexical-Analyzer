@@ -1,0 +1,46 @@
+PLUS       +
+PLUS       +
+PLUS       +
+MINUS      -
+MINUS      -
+MINUS      -
+MULT       *
+MULT       *
+MULT       *
+DIVIDE     /
+DIVIDE     /
+DIVIDE     /
+DIVIDE     /
+LPAREN     (
+LTHAN      <
+LTHAN      <
+MULT       *
+MULT       *
+LTHAN      <
+***lexical error: illegal character (!)
+PLUS       +
+PLUS       +
+MINUS      -
+ENDTAGHEAD </
+MULT       *
+MULT       *
+EXP        **
+LTHAN      <
+***lexical error: illegal character (!)
+MINUS      -
+MINUS      -
+MINUS      -
+MINUS      -
+GTHAN      >
+ENDTAGHEAD </
+LTHAN      <
+DIVIDE     /
+TAGIDENT   <html
+GTHAN      >
+QUOTE      '
+QUOTE      '
+DQUOTE     "
+DQUOTE     "
+***lexical error: badly formed number
+NUMBER     1e
+TAGIDENT   <HTML
